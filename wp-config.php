@@ -80,8 +80,15 @@ define('WPLANG', '');
  */
 define('WP_DEBUG', false);
 
+
 /* Multisite */
 define( 'WP_ALLOW_MULTISITE', getenv('WP_ALLOW_MULTISITE') );
+define('MULTISITE', getenv('MULTISITE'));
+define('SUBDOMAIN_INSTALL', getenv('SUBDOMAIN_INSTALL'));
+define('DOMAIN_CURRENT_SITE', getenv('DOMAIN_CURRENT_SITE'));
+define('PATH_CURRENT_SITE', getenv('PATH_CURRENT_SITE'));
+define('SITE_ID_CURRENT_SITE', getenv('SITE_ID_CURRENT_SITE'));
+define('BLOG_ID_CURRENT_SITE', getenv('BLOG_ID_CURRENT_SITE'));
 
 /* That's all, stop editing! Happy blogging. */
 
